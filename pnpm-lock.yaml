@@ -67,8 +67,8 @@ importers:
         specifier: ^24.1.1
         version: 24.1.1
       poku:
-        specifier: ^2.2.2
-        version: 2.2.2
+        specifier: ^2.2.3
+        version: 2.2.3
       solid-refresh:
         specifier: ^0.7.5
         version: 0.7.5(solid-js@1.8.19)
@@ -1196,8 +1196,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.1:
-    resolution: {integrity: sha512-FKbOCOQ5QRB3VlIbl1LZQefWIYwszlBloaXcY2rbfpu9ioJnNh3TK03YtIDKDo3WKBi8u+YV4+Fn2CkEozgf4w==}
+  electron-to-chromium@1.5.2:
+    resolution: {integrity: sha512-kc4r3U3V3WLaaZqThjYz/Y6z8tJe+7K0bbjUVo3i+LWIypVdMx5nXCkwRe6SWbY6ILqLdc1rKcKmr3HoH7wjSQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2240,8 +2240,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  poku@2.2.2:
-    resolution: {integrity: sha512-p75qPx0Zyp+FQYvcvLqF7kzKPeeSvIQbfBJVLs9B7PnidjFzJJxdx2iWHrdOo3VZu28mkkEYNg5+KU2VSvVk0Q==}
+  poku@2.2.3:
+    resolution: {integrity: sha512-QnWuAEGGtyP7LEeTbjwgYIia0ZyBTb8gAojaXDus9wZded+d3Tuqxv+k06TcnJWnl2CYGsUaRew566M0DmGQhA==}
     engines: {bun: '>=1.0.0', deno: '>=1.30.0', node: '>=8.17.0', typescript: '>=4.7.2'}
     hasBin: true
 
@@ -3828,7 +3828,7 @@ snapshots:
   browserslist@4.23.2:
     dependencies:
       caniuse-lite: 1.0.30001643
-      electron-to-chromium: 1.5.1
+      electron-to-chromium: 1.5.2
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
 
@@ -4068,7 +4068,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.1: {}
+  electron-to-chromium@1.5.2: {}
 
   emoji-regex@8.0.0: {}
 
@@ -5219,7 +5219,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  poku@2.2.2: {}
+  poku@2.2.3: {}
 
   possible-typed-array-names@1.0.0: {}
 

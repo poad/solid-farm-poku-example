@@ -35,7 +35,7 @@
     "eslint-plugin-promise": "^7.0.0",
     "eslint-plugin-solid": "^0.14.1",
     "jsdom": "^24.1.1",
-    "poku": "^2.2.2",
+    "poku": "^2.2.3",
     "solid-refresh": "^0.7.5",
     "tsx": "^4.16.2",
     "typescript-eslint": "^7.17.0",
