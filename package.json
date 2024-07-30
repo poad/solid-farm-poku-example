@@ -21,7 +21,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.8.0",
     "@farmfe/cli": "^1.0.3",
-    "@farmfe/core": "^1.3.11",
+    "@farmfe/core": "^1.3.12",
     "@solidjs/router": "^0.14.1",
     "@solidjs/testing-library": "^0.8.9",
     "@stylistic/eslint-plugin": "^2.4.0",
