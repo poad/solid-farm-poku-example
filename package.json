@@ -37,7 +37,7 @@
     "jsdom": "^24.1.1",
     "poku": "^2.2.4",
     "solid-refresh": "^0.7.5",
-    "tsx": "^4.16.2",
+    "tsx": "^4.16.3",
     "typescript-eslint": "^7.18.0",
     "vite-plugin-solid": "^2.10.2"
   },
