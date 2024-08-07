@@ -58,8 +58,8 @@ importers:
         specifier: ^2.29.1
         version: 2.29.1(@typescript-eslint/parser@8.0.1(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0)
       eslint-plugin-promise:
-        specifier: ^7.0.0
-        version: 7.0.0(eslint@9.8.0)
+        specifier: ^7.1.0
+        version: 7.1.0(eslint@9.8.0)
       eslint-plugin-solid:
         specifier: ^0.14.1
         version: 0.14.1(eslint@9.8.0)(typescript@5.5.4)
@@ -67,8 +67,8 @@ importers:
         specifier: ^24.1.1
         version: 24.1.1
       poku:
-        specifier: ^2.4.0
-        version: 2.4.0
+        specifier: ^2.4.1
+        version: 2.4.1
       solid-refresh:
         specifier: ^0.7.5
         version: 0.7.5(solid-js@1.8.19)
@@ -521,8 +521,8 @@ packages:
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
 
-  '@mdn/browser-compat-data@5.5.44':
-    resolution: {integrity: sha512-bG2ePe+cjEyZQ9hBB+EzsItnl0hPNs1RLjmRuWX7lS0vJ8ddxTeyoQ8yXkp+DAcprbJ0X65wUCgfjBODCRsB5w==}
+  '@mdn/browser-compat-data@5.5.45':
+    resolution: {integrity: sha512-ZSQFGihUPlFxG2S9sUWS2tjDKQNTVVEgN62Au5yFcnbYsC183T1JrLz6I5H467Hw8WMCjwRuOEFQSpBW6IvZCg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -698,8 +698,8 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
-  '@types/http-proxy@1.17.14':
-    resolution: {integrity: sha512-SSrD0c1OQzlFX7pGu1eXxSEjemej64aaNPRhhVYUGqXh0BtldAAx37MG8btcumvpgKyZp1F5Gn3JkktdxiFv6w==}
+  '@types/http-proxy@1.17.15':
+    resolution: {integrity: sha512-25g5atgiVNTIv0LBDTg1H74Hvayx0ajtJPLLcYE3whFv75J0pWNtOBzaXJQgDTmrX1bx5U9YC2w/n65BN1HwRQ==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -1003,8 +1003,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001649:
-    resolution: {integrity: sha512-fJegqZZ0ZX8HOWr6rcafGr72+xcgJKI9oWfDW5DrD7ExUtgZC7a7R7ZYmZqplh7XDocFdGeIFn7roAxhOeYrPQ==}
+  caniuse-lite@1.0.30001650:
+    resolution: {integrity: sha512-fgEc7hP/LB7iicdXHUI9VsBsMZmUmlVJeQP2qqQW+3lkqVhbmjEU8zp+h5stWeilX+G7uXuIUIIlWlDw9jdt8g==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -1336,8 +1336,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-promise@7.0.0:
-    resolution: {integrity: sha512-wb1ECT+b90ndBdAujhIdAU8oQ3Vt5gKqP/t78KOmg0ifynrvc2jGR9f6ndbOVNFpKf6jLUBlBBDF3H3Wk0JICg==}
+  eslint-plugin-promise@7.1.0:
+    resolution: {integrity: sha512-8trNmPxdAy3W620WKDpaS65NlM5yAumod6XeC4LOb+jxlkG4IVcp68c6dXY2ev+uT4U1PtG57YDV6EGAXN0GbQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -2277,8 +2277,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  poku@2.4.0:
-    resolution: {integrity: sha512-EfP7nD2YM9FL2ln1gKmqAb1TIM5M6KMALh7pqB9AgDjYCc6CgVZlWhjABnxdbDDyxH726n4kVxl/uN5P5nXrPg==}
+  poku@2.4.1:
+    resolution: {integrity: sha512-UCxFDCI4ad7MhXOzVPL76BfMDtGh1VxCprX5EJ5OR2rBbWuI1MUkiE/kn3mlTvrcFJdbmzBMMhWxUh1saUHojA==}
     engines: {bun: '>=1.0.0', deno: '>=1.30.0', node: '>=8.17.0', typescript: '>=4.7.2'}
     hasBin: true
 
@@ -3397,7 +3397,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@mdn/browser-compat-data@5.5.44': {}
+  '@mdn/browser-compat-data@5.5.45': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3577,7 +3577,7 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
-  '@types/http-proxy@1.17.14':
+  '@types/http-proxy@1.17.15':
     dependencies:
       '@types/node': 22.0.3
 
@@ -3918,7 +3918,7 @@ snapshots:
 
   browserslist@4.23.3:
     dependencies:
-      caniuse-lite: 1.0.30001649
+      caniuse-lite: 1.0.30001650
       electron-to-chromium: 1.5.5
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
@@ -3951,7 +3951,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001649: {}
+  caniuse-lite@1.0.30001650: {}
 
   chalk@2.4.2:
     dependencies:
@@ -4328,7 +4328,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-promise@7.0.0(eslint@9.8.0):
+  eslint-plugin-promise@7.1.0(eslint@9.8.0):
     dependencies:
       eslint: 9.8.0
 
@@ -4449,12 +4449,12 @@ snapshots:
 
   farm-browserslist-generator@1.0.0:
     dependencies:
-      '@mdn/browser-compat-data': 5.5.44
+      '@mdn/browser-compat-data': 5.5.45
       '@types/object-path': 0.11.4
       '@types/semver': 7.5.8
       '@types/ua-parser-js': 0.7.39
       browserslist: 4.23.3
-      caniuse-lite: 1.0.30001649
+      caniuse-lite: 1.0.30001650
       isbot: 3.8.0
       object-path: 0.11.8
       semver: 7.6.3
@@ -4719,7 +4719,7 @@ snapshots:
 
   http-proxy-middleware@3.0.0:
     dependencies:
-      '@types/http-proxy': 1.17.14
+      '@types/http-proxy': 1.17.15
       debug: 4.3.6
       http-proxy: 1.18.1(debug@4.3.6)
       is-glob: 4.0.3
@@ -5310,7 +5310,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  poku@2.4.0: {}
+  poku@2.4.1: {}
 
   possible-typed-array-names@1.0.0: {}
 
