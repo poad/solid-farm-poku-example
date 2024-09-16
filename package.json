@@ -39,7 +39,7 @@
     "poku": "^2.6.2",
     "solid-refresh": "^0.7.5",
     "tsx": "^4.19.1",
-    "typescript-eslint": "^8.5.0",
+    "typescript-eslint": "^8.6.0",
     "vite-plugin-solid": "^2.10.2"
   },
   "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
