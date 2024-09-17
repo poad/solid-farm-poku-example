@@ -70,8 +70,8 @@ importers:
         specifier: ^25.0.0
         version: 25.0.0
       poku:
-        specifier: ^2.6.2
-        version: 2.6.2
+        specifier: ^2.7.0
+        version: 2.7.0
       solid-refresh:
         specifier: ^0.7.5
         version: 0.7.5(solid-js@1.8.22)
@@ -2370,8 +2370,8 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  poku@2.6.2:
-    resolution: {integrity: sha512-qoqVaj6pVhqVTsgQGGbT653Xzy8IUpbTT4He9B26TRgEWcb7EC0hz0qIHyY8eiR8A8YtryTROgoJFt808KnXaA==}
+  poku@2.7.0:
+    resolution: {integrity: sha512-iCXNzQ7AYBBEkGdDZdcIa9KzQluHSqWmV+i+rGyrQF35Yj5r5Ap/TmnZ15c7c+V3KMOT/gN8ZTWkPZ3BvO9gqQ==}
     engines: {bun: '>=1.0.0', deno: '>=1.30.0', node: '>=8.17.0', typescript: '>=4.7.2'}
     hasBin: true
 
@@ -5375,7 +5375,7 @@ snapshots:
 
   pify@4.0.1: {}
 
-  poku@2.6.2: {}
+  poku@2.7.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
