@@ -28,11 +28,11 @@ importers:
         specifier: ^1.3.23
         version: 1.3.23
       '@solidjs/router':
-        specifier: ^0.14.5
-        version: 0.14.5(solid-js@1.9.1)
+        specifier: ^0.14.7
+        version: 0.14.7(solid-js@1.9.1)
       '@solidjs/testing-library':
         specifier: ^0.8.10
-        version: 0.8.10(@solidjs/router@0.14.5(solid-js@1.9.1))(solid-js@1.9.1)
+        version: 0.8.10(@solidjs/router@0.14.7(solid-js@1.9.1))(solid-js@1.9.1)
       '@stylistic/eslint-plugin':
         specifier: ^2.8.0
         version: 2.8.0(eslint@9.11.1)(typescript@5.5.4)
@@ -781,8 +781,8 @@ packages:
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
 
-  '@solidjs/router@0.14.5':
-    resolution: {integrity: sha512-J8ZMntnkDvNCSO9n4HyhlQlGdxYa1mandQLt5LMd0YiWAXGlYzjj+bB+OVtzsH1woWfoEJlVnBnGkMpf2lY/ig==}
+  '@solidjs/router@0.14.7':
+    resolution: {integrity: sha512-agLf8AUz5XnW6+F64a4Iq+QQQobI5zGHQ/gUYd/WHSwcbnFpavbsiwRLob3YhWMXVX3sQyn4ekUN+uchMCRupw==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -1429,8 +1429,8 @@ packages:
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
 
-  eslint-module-utils@2.11.1:
-    resolution: {integrity: sha512-EwcbfLOhwVMAfatfqLecR2yv3dE5+kQ8kx+Rrt0DvDXEVwW86KQ/xbMDQhtp5l42VXukD5SOF8mQQHbaNtO0CQ==}
+  eslint-module-utils@2.12.0:
+    resolution: {integrity: sha512-wALZ0HFoytlyh/1+4wuZ9FJCD/leWHQzzrxJ8+rebyReSLk7LApMyd3WJaLVoN+D5+WIdJyDK1c6JnE65V4Zyg==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -2812,8 +2812,8 @@ packages:
     resolution: {integrity: sha512-KK8xQ1mkzZeg9inewmFVDNkg3l5LUhoq9kN6iWYB/CC9YMG8HA+c1Q8HwDe6dEX7kErrEVNVBO3fWsVq5iDgtw==}
     engines: {node: '>=8'}
 
-  update-browserslist-db@1.1.0:
-    resolution: {integrity: sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==}
+  update-browserslist-db@1.1.1:
+    resolution: {integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -3641,16 +3641,16 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
-  '@solidjs/router@0.14.5(solid-js@1.9.1)':
+  '@solidjs/router@0.14.7(solid-js@1.9.1)':
     dependencies:
       solid-js: 1.9.1
 
-  '@solidjs/testing-library@0.8.10(@solidjs/router@0.14.5(solid-js@1.9.1))(solid-js@1.9.1)':
+  '@solidjs/testing-library@0.8.10(@solidjs/router@0.14.7(solid-js@1.9.1))(solid-js@1.9.1)':
     dependencies:
       '@testing-library/dom': 10.4.0
       solid-js: 1.9.1
     optionalDependencies:
-      '@solidjs/router': 0.14.5(solid-js@1.9.1)
+      '@solidjs/router': 0.14.7(solid-js@1.9.1)
 
   '@stylistic/eslint-plugin-js@2.8.0(eslint@9.11.1)':
     dependencies:
@@ -4030,7 +4030,7 @@ snapshots:
       caniuse-lite: 1.0.30001664
       electron-to-chromium: 1.5.29
       node-releases: 2.0.18
-      update-browserslist-db: 1.1.0(browserslist@4.24.0)
+      update-browserslist-db: 1.1.1(browserslist@4.24.0)
 
   buffer@5.7.1:
     dependencies:
@@ -4429,7 +4429,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.11.1(@typescript-eslint/parser@8.7.0(eslint@9.11.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint@9.11.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.7.0(eslint@9.11.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint@9.11.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -4450,7 +4450,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.11.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.11.1(@typescript-eslint/parser@8.7.0(eslint@9.11.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint@9.11.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.7.0(eslint@9.11.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint@9.11.1)
       hasown: 2.0.2
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -5868,7 +5868,7 @@ snapshots:
 
   untildify@4.0.0: {}
 
-  update-browserslist-db@1.1.0(browserslist@4.24.0):
+  update-browserslist-db@1.1.1(browserslist@4.24.0):
     dependencies:
       browserslist: 4.24.0
       escalade: 3.2.0
