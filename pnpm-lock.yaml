@@ -693,8 +693,8 @@ packages:
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
 
-  '@mdn/browser-compat-data@5.6.4':
-    resolution: {integrity: sha512-bOOF4GGzn0exmvNHpSWmTfOXB9beTpIFCm2KPY2UVoCdn1YVfr8heuHr1C++BYI9Tun8REgi5TNVdKbBs249CA==}
+  '@mdn/browser-compat-data@5.6.5':
+    resolution: {integrity: sha512-5fwVfdYQ/CnsK1r3DiOfhib46gUr8v0aeJaXt+PQ4aYvZNaBB3hg+3fS+OHdnJkNfm6QdBNjgBNdyV+mBMfBOA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1362,8 +1362,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.33:
-    resolution: {integrity: sha512-+cYTcFB1QqD4j4LegwLfpCNxifb6dDFUAwk6RsLusCwIaZI6or2f+q8rs5tTB2YC53HhOlIbEaqHMAAC8IOIwA==}
+  electron-to-chromium@1.5.34:
+    resolution: {integrity: sha512-/TZAiChbAflBNjCg+VvstbcwAtIL/VdMFO3NgRFIzBjpvPzWOTIbbO8kNb6RwU4bt9TP7K+3KqBKw/lOU+Y+GA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3588,7 +3588,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@mdn/browser-compat-data@5.6.4': {}
+  '@mdn/browser-compat-data@5.6.5': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -4029,7 +4029,7 @@ snapshots:
   browserslist@4.24.0:
     dependencies:
       caniuse-lite: 1.0.30001667
-      electron-to-chromium: 1.5.33
+      electron-to-chromium: 1.5.34
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.0)
 
@@ -4271,7 +4271,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.33: {}
+  electron-to-chromium@1.5.34: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4591,7 +4591,7 @@ snapshots:
 
   farm-browserslist-generator@1.0.5:
     dependencies:
-      '@mdn/browser-compat-data': 5.6.4
+      '@mdn/browser-compat-data': 5.6.5
       '@types/object-path': 0.11.4
       '@types/semver': 7.5.8
       '@types/ua-parser-js': 0.7.39
