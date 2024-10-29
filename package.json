@@ -17,7 +17,7 @@
     "solid-js": "^1.9.3"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.1",
+    "@eslint/compat": "^1.2.2",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.13.0",
     "@farmfe/cli": "^1.0.4",
@@ -39,7 +39,7 @@
     "poku": "^2.7.1",
     "solid-refresh": "^0.7.5",
     "tsx": "^4.19.2",
-    "typescript-eslint": "^8.11.0",
+    "typescript-eslint": "^8.12.1",
     "vite-plugin-solid": "^2.10.2"
   },
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
