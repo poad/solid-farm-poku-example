@@ -25,14 +25,14 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4
       '@farmfe/core':
-        specifier: ^1.3.31
-        version: 1.3.31
+        specifier: ^1.3.32
+        version: 1.3.32
       '@solidjs/router':
-        specifier: ^0.15.0
-        version: 0.15.0(solid-js@1.9.3)
+        specifier: ^0.15.1
+        version: 0.15.1(solid-js@1.9.3)
       '@solidjs/testing-library':
         specifier: ^0.8.10
-        version: 0.8.10(@solidjs/router@0.15.0(solid-js@1.9.3))(solid-js@1.9.3)
+        version: 0.8.10(@solidjs/router@0.15.1(solid-js@1.9.3))(solid-js@1.9.3)
       '@stylistic/eslint-plugin':
         specifier: ^2.10.1
         version: 2.10.1(eslint@9.14.0)(typescript@5.5.4)
@@ -83,7 +83,7 @@ importers:
         version: 8.13.0(eslint@9.14.0)(typescript@5.5.4)
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.3.5(@types/node@22.8.4))
+        version: 2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.3.5(@types/node@22.9.0))
 
 packages:
 
@@ -560,62 +560,62 @@ packages:
     engines: {node: '>= 16'}
     hasBin: true
 
-  '@farmfe/core-darwin-arm64@1.3.31':
-    resolution: {integrity: sha512-3bnSGD5hDWo5yjI+g2vim5WQB5JrDKJtCpOXOWZFyG/u4O2Xns7Yg6zqqB7biYsQKaujTJ81KjACAjPi8cY04Q==}
+  '@farmfe/core-darwin-arm64@1.3.32':
+    resolution: {integrity: sha512-YoyZuKu9Uk5X3yathRwcbbF/e5B9ELI5dzuP+nhOUa/kJdZVQautQ8TybZaivMNC03PNHxC0hHTm/k49+fjvow==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@farmfe/core-darwin-x64@1.3.31':
-    resolution: {integrity: sha512-WnnQi61z7s3sV9oWoT/rblXulT0cOKLv3Y/p5dVc6BSzmdXz27f8e7ETx3o2Om9UsMyKP1tkv6qYXs0QQpNw8A==}
+  '@farmfe/core-darwin-x64@1.3.32':
+    resolution: {integrity: sha512-sgOwoEQvhOGzYim+dh0Mg2Wh81ZpYZ/QeFOFB6MguP3PWs99BM1XfrhQQWnyhHZwsXBYoMeJlakWO0upID+0xQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@farmfe/core-linux-arm64-gnu@1.3.31':
-    resolution: {integrity: sha512-fFVL6bSQNSdQfn4TwtnpL2w9YXA/EID/SBdMX5MyeLb74cvHRhMSVWs09jY3V8Siji+aAeemI+QWAqKDKEALlg==}
+  '@farmfe/core-linux-arm64-gnu@1.3.32':
+    resolution: {integrity: sha512-cmQqBQkpX8+N0y3WOGflK8kTtwv32q/m81mj1ZGH3o7XwKPsP5NVQNuVfRvkweZtBsDJqwrKrEKgiErr8Fa/RA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@farmfe/core-linux-arm64-musl@1.3.31':
-    resolution: {integrity: sha512-AxMK0rNC8Cy/e/nxmkVSTjAO2ViSl/zjKTAOxTLGccurdtDX0avaVdB/jQUkrOUTClcffiDQyqW/M13+q75+oA==}
+  '@farmfe/core-linux-arm64-musl@1.3.32':
+    resolution: {integrity: sha512-MhHAsy9QH3NvMo3mYhZcxtJCimSr5ez4tkdYb8eXlqN7Zxin49J77BI7SncoDzvdZv6Z4kgaA3MX727EnFU7vA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@farmfe/core-linux-x64-gnu@1.3.31':
-    resolution: {integrity: sha512-xAfVKSqgmmAc2IcyQXjOFJoqMxEWKm/OXu6aiZtdBDHFco7DJyTvhAsP13csVYhfGPQET4O2MlwS3jiSGFdJZg==}
+  '@farmfe/core-linux-x64-gnu@1.3.32':
+    resolution: {integrity: sha512-dvdXL2+IyPLGBDYUaBPfZQtr84V16Ou7WUUb8aG+rK8l3p1jR1rrwVY71DTqcUS3/7sC98J2ZXtVMz7+OL5MFg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@farmfe/core-linux-x64-musl@1.3.31':
-    resolution: {integrity: sha512-R4NgKrWSzUWbpv1MU/D7Akjak5Q0zNZ+AiKrWlp0xqdbvqFM5YUzY6C4NgXM76KkOLmEaXXI4H5iK1xC5Kqi/w==}
+  '@farmfe/core-linux-x64-musl@1.3.32':
+    resolution: {integrity: sha512-M99vIDiC+1cSuC+6URpuxkc1ReINhjXf0LM4KHm9DlUxLdDqHsNaCYfok4VmY5aufRJfVfyMqkN0ZEa737e4Tw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@farmfe/core-win32-arm64-msvc@1.3.31':
-    resolution: {integrity: sha512-3jg6rCgZ9/qDP7Leb1ib3c8yUJhilJJgYuBhlD5QoUW0Xvgz5uZpyfZNmQYLPr7ozJHdwyJJue8TsQyQkwFUpA==}
+  '@farmfe/core-win32-arm64-msvc@1.3.32':
+    resolution: {integrity: sha512-6jcKatugnurgw0iKkdMhfzXuhsRzKzr5Azt5OXHMuTB2YWsKJ2fyqCQcmzxFA3Sc8OhlgUcSdGyXfjIKTtMQcA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@farmfe/core-win32-ia32-msvc@1.3.31':
-    resolution: {integrity: sha512-7HqkHCsUHPB2I+1faomqxL++FQZpx6m3Y/W8F6sh1WQiSHAnWa3IwCZrN/JlMdcqTpaVL3O7reRXLknahmu6xA==}
+  '@farmfe/core-win32-ia32-msvc@1.3.32':
+    resolution: {integrity: sha512-pzrtUSaG7HGMMunMhTpuvi0xZ+2RjrTYqUAaHZw0zrMjeM41n+WMacgeFkvQWeROianZMK3DRK8c922/2Oucxw==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
 
-  '@farmfe/core-win32-x64-msvc@1.3.31':
-    resolution: {integrity: sha512-IndkySDHhdluLHWReXbpf3pznJP71CiOJoAJkY+Q8bNwFu17dWqBEjWLsA0k8tJcQ2eIOhXKVmUUJM53Ik+RVQ==}
+  '@farmfe/core-win32-x64-msvc@1.3.32':
+    resolution: {integrity: sha512-juIlEXkjpo+kvvqTKqpqA/IktLCbYqU2jKtR2U61Ulh0N5yoffNNYizaa6Jmhmpn2GloAScGXmlFH6NLjfS65A==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
 
-  '@farmfe/core@1.3.31':
-    resolution: {integrity: sha512-Qx2PcWRg69QeNMWqJWj3oDfxneYS8Hyoz9wSOH7Mv9u8hEcRuq4MfRhSHAbVOp/oMjE7K3mkmiuMjYN5KStk4g==}
+  '@farmfe/core@1.3.32':
+    resolution: {integrity: sha512-90ZfWdgSAck2M0yeKpCeg9yzTEklal4EPt9eVEA1ZlTCWajNo4ITD67cDXfXrjTK4M4ek8Vz9KUW/6oqFIEZGw==}
     engines: {node: '>=16.15.1'}
 
   '@farmfe/runtime-plugin-hmr@3.5.7':
@@ -685,8 +685,8 @@ packages:
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
 
-  '@mdn/browser-compat-data@5.6.12':
-    resolution: {integrity: sha512-W/Km+GFczwpoimaXbtHYdjK26VHGszOEZ9EnIyLS2E65x6LEZs7r0FovR/XSkzgNau95sTxI3JfFKQFLIJE7EQ==}
+  '@mdn/browser-compat-data@5.6.13':
+    resolution: {integrity: sha512-eZOraBiugKZewtS10c7M78OKwL6CBhVzqSQvb5j+WGw/7MdPRfHrP7LuiEoLCeHXfmE414geJjnHPGQ0iAnCyg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -793,8 +793,8 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@solidjs/router@0.15.0':
-    resolution: {integrity: sha512-Q286eKFh9sY2OeSISqiNrZW5ZJ7M58fkxCfFeYg0KE15P9QMwhT9YqnInE/OdzavWzXU3ZYclV2NGVKz8pfqWg==}
+  '@solidjs/router@0.15.1':
+    resolution: {integrity: sha512-lb5BRBqQqii/1dQCglx2K68xLkgu7QcrcajWKuuEx6FHTsK/hp5IgVhjy6RzPMLj+SFyrrRi/ldirCFNxtzh0Q==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -884,8 +884,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@22.8.4':
-    resolution: {integrity: sha512-SpNNxkftTJOPk0oN+y2bIqurEXHTA2AOZ3EJDDKeJ5VzkvvORSvmQXGQarcOzWV1ac7DCaPBEdMDxBsM+d8jWw==}
+  '@types/node@22.9.0':
+    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
 
   '@types/object-path@0.11.4':
     resolution: {integrity: sha512-4tgJ1Z3elF/tOMpA8JLVuR9spt9Ynsf7+JjqsQ2IqtiPJtcLoHoXcT6qU4E10cPFqyXX5HDm9QwIzZhBSkLxsw==}
@@ -1343,8 +1343,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.51:
-    resolution: {integrity: sha512-kKeWV57KSS8jH4alKt/jKnvHPmJgBxXzGUSbMd4eQF+iOsVPl7bz2KUmu6eo80eMP8wVioTfTyTzdMgM15WXNg==}
+  electron-to-chromium@1.5.52:
+    resolution: {integrity: sha512-xtoijJTZ+qeucLBDNztDOuQBE1ksqjvNjvqFoST3nGC7fSpqJ+X6BdTBaY5BHG+IhWWmpc6b/KfpeuEDupEPOQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3381,34 +3381,34 @@ snapshots:
       inquirer: 9.2.12
       walkdir: 0.4.1
 
-  '@farmfe/core-darwin-arm64@1.3.31':
+  '@farmfe/core-darwin-arm64@1.3.32':
     optional: true
 
-  '@farmfe/core-darwin-x64@1.3.31':
+  '@farmfe/core-darwin-x64@1.3.32':
     optional: true
 
-  '@farmfe/core-linux-arm64-gnu@1.3.31':
+  '@farmfe/core-linux-arm64-gnu@1.3.32':
     optional: true
 
-  '@farmfe/core-linux-arm64-musl@1.3.31':
+  '@farmfe/core-linux-arm64-musl@1.3.32':
     optional: true
 
-  '@farmfe/core-linux-x64-gnu@1.3.31':
+  '@farmfe/core-linux-x64-gnu@1.3.32':
     optional: true
 
-  '@farmfe/core-linux-x64-musl@1.3.31':
+  '@farmfe/core-linux-x64-musl@1.3.32':
     optional: true
 
-  '@farmfe/core-win32-arm64-msvc@1.3.31':
+  '@farmfe/core-win32-arm64-msvc@1.3.32':
     optional: true
 
-  '@farmfe/core-win32-ia32-msvc@1.3.31':
+  '@farmfe/core-win32-ia32-msvc@1.3.32':
     optional: true
 
-  '@farmfe/core-win32-x64-msvc@1.3.31':
+  '@farmfe/core-win32-x64-msvc@1.3.32':
     optional: true
 
-  '@farmfe/core@1.3.31':
+  '@farmfe/core@1.3.32':
     dependencies:
       '@farmfe/runtime': 0.12.7
       '@farmfe/runtime-plugin-hmr': 3.5.7
@@ -3438,15 +3438,15 @@ snapshots:
       zod: 3.23.8
       zod-validation-error: 1.5.0(zod@3.23.8)
     optionalDependencies:
-      '@farmfe/core-darwin-arm64': 1.3.31
-      '@farmfe/core-darwin-x64': 1.3.31
-      '@farmfe/core-linux-arm64-gnu': 1.3.31
-      '@farmfe/core-linux-arm64-musl': 1.3.31
-      '@farmfe/core-linux-x64-gnu': 1.3.31
-      '@farmfe/core-linux-x64-musl': 1.3.31
-      '@farmfe/core-win32-arm64-msvc': 1.3.31
-      '@farmfe/core-win32-ia32-msvc': 1.3.31
-      '@farmfe/core-win32-x64-msvc': 1.3.31
+      '@farmfe/core-darwin-arm64': 1.3.32
+      '@farmfe/core-darwin-x64': 1.3.32
+      '@farmfe/core-linux-arm64-gnu': 1.3.32
+      '@farmfe/core-linux-arm64-musl': 1.3.32
+      '@farmfe/core-linux-x64-gnu': 1.3.32
+      '@farmfe/core-linux-x64-musl': 1.3.32
+      '@farmfe/core-win32-arm64-msvc': 1.3.32
+      '@farmfe/core-win32-ia32-msvc': 1.3.32
+      '@farmfe/core-win32-x64-msvc': 1.3.32
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -3522,7 +3522,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@mdn/browser-compat-data@5.6.12': {}
+  '@mdn/browser-compat-data@5.6.13': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3592,16 +3592,16 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@solidjs/router@0.15.0(solid-js@1.9.3)':
+  '@solidjs/router@0.15.1(solid-js@1.9.3)':
     dependencies:
       solid-js: 1.9.3
 
-  '@solidjs/testing-library@0.8.10(@solidjs/router@0.15.0(solid-js@1.9.3))(solid-js@1.9.3)':
+  '@solidjs/testing-library@0.8.10(@solidjs/router@0.15.1(solid-js@1.9.3))(solid-js@1.9.3)':
     dependencies:
       '@testing-library/dom': 10.4.0
       solid-js: 1.9.3
     optionalDependencies:
-      '@solidjs/router': 0.15.0(solid-js@1.9.3)
+      '@solidjs/router': 0.15.1(solid-js@1.9.3)
 
   '@stylistic/eslint-plugin-js@2.10.1(eslint@9.14.0)':
     dependencies:
@@ -3699,7 +3699,7 @@ snapshots:
 
   '@types/http-proxy@1.17.15':
     dependencies:
-      '@types/node': 22.8.4
+      '@types/node': 22.9.0
 
   '@types/json-schema@7.0.15': {}
 
@@ -3707,7 +3707,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@22.8.4':
+  '@types/node@22.9.0':
     dependencies:
       undici-types: 6.19.8
 
@@ -3962,7 +3962,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001677
-      electron-to-chromium: 1.5.51
+      electron-to-chromium: 1.5.52
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -4190,7 +4190,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.51: {}
+  electron-to-chromium@1.5.52: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4508,7 +4508,7 @@ snapshots:
 
   farm-browserslist-generator@1.0.5:
     dependencies:
-      '@mdn/browser-compat-data': 5.6.12
+      '@mdn/browser-compat-data': 5.6.13
       '@types/object-path': 0.11.4
       '@types/semver': 7.5.8
       '@types/ua-parser-js': 0.7.39
@@ -5776,7 +5776,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.3.5(@types/node@22.8.4)):
+  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.3.5(@types/node@22.9.0)):
     dependencies:
       '@babel/core': 7.26.0
       '@types/babel__core': 7.20.5
@@ -5784,25 +5784,25 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 5.3.5(@types/node@22.8.4)
-      vitefu: 0.2.5(vite@5.3.5(@types/node@22.8.4))
+      vite: 5.3.5(@types/node@22.9.0)
+      vitefu: 0.2.5(vite@5.3.5(@types/node@22.9.0))
     optionalDependencies:
       '@testing-library/jest-dom': 6.6.3
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.3.5(@types/node@22.8.4):
+  vite@5.3.5(@types/node@22.9.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.24.4
     optionalDependencies:
-      '@types/node': 22.8.4
+      '@types/node': 22.9.0
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.3.5(@types/node@22.8.4)):
+  vitefu@0.2.5(vite@5.3.5(@types/node@22.9.0)):
     optionalDependencies:
-      vite: 5.3.5(@types/node@22.8.4)
+      vite: 5.3.5(@types/node@22.9.0)
 
   w3c-xmlserializer@5.0.0:
     dependencies:
