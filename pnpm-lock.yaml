@@ -4,10 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  vite@>=5.3.0 <5.3.6: '>=5.3.6'
-  vite@>=5.3.0 <=5.3.5: '>=5.3.6'
-
 importers:
 
   .:
@@ -85,9 +81,12 @@ importers:
       typescript-eslint:
         specifier: ^8.15.0
         version: 8.15.0(eslint@9.15.0)(typescript@5.5.4)
+      vite:
+        specifier: ^5.4.11
+        version: 5.4.11(@types/node@22.9.1)
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.3.5(@types/node@22.9.1))
+        version: 2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.4.11(@types/node@22.9.1))
 
 packages:
 
@@ -2786,13 +2785,13 @@ packages:
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
       solid-js: ^1.7.2
-      vite: '>=5.3.6'
+      vite: ^3.0.0 || ^4.0.0 || ^5.0.0
     peerDependenciesMeta:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@5.3.5:
-    resolution: {integrity: sha512-MdjglKR6AQXQb9JGiS7Rc2wC6uMjcm7Go/NHNO63EwiJXfuk9PgqiP/n5IDJCziMkfw9n4Ubp7lttNwz+8ZVKA==}
+  vite@5.4.11:
+    resolution: {integrity: sha512-c7jFQRklXua0mTzneGW9QVyxFjUgwcihC4bXEtujIo2ouWCe1Ajt/amn2PCxYnhYfd5k09JX3SB7OYWFKYqj8Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -2800,6 +2799,7 @@ packages:
       less: '*'
       lightningcss: ^1.21.0
       sass: '*'
+      sass-embedded: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
@@ -2812,6 +2812,8 @@ packages:
         optional: true
       sass:
         optional: true
+      sass-embedded:
+        optional: true
       stylus:
         optional: true
       sugarss:
@@ -2822,7 +2824,7 @@ packages:
   vitefu@0.2.5:
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
-      vite: '>=5.3.6'
+      vite: ^3.0.0 || ^4.0.0 || ^5.0.0
     peerDependenciesMeta:
       vite:
         optional: true
@@ -5744,7 +5746,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.3.5(@types/node@22.9.1)):
+  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.3)(vite@5.4.11(@types/node@22.9.1)):
     dependencies:
       '@babel/core': 7.26.0
       '@types/babel__core': 7.20.5
@@ -5752,14 +5754,14 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 5.3.5(@types/node@22.9.1)
-      vitefu: 0.2.5(vite@5.3.5(@types/node@22.9.1))
+      vite: 5.4.11(@types/node@22.9.1)
+      vitefu: 0.2.5(vite@5.4.11(@types/node@22.9.1))
     optionalDependencies:
       '@testing-library/jest-dom': 6.6.3
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.3.5(@types/node@22.9.1):
+  vite@5.4.11(@types/node@22.9.1):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
@@ -5768,9 +5770,9 @@ snapshots:
       '@types/node': 22.9.1
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.3.5(@types/node@22.9.1)):
+  vitefu@0.2.5(vite@5.4.11(@types/node@22.9.1)):
     optionalDependencies:
-      vite: 5.3.5(@types/node@22.9.1)
+      vite: 5.4.11(@types/node@22.9.1)
 
   w3c-xmlserializer@5.0.0:
     dependencies:
