@@ -25,8 +25,8 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4
       '@farmfe/core':
-        specifier: ^1.4.6
-        version: 1.4.6
+        specifier: ^1.4.7
+        version: 1.4.7
       '@solidjs/router':
         specifier: ^0.15.1
         version: 0.15.1(solid-js@1.9.3)
@@ -569,66 +569,66 @@ packages:
     engines: {node: '>= 16'}
     hasBin: true
 
-  '@farmfe/core-darwin-arm64@1.4.6':
-    resolution: {integrity: sha512-gqLd/3NCZI36q1SzJl7y4TO0DHLXn5iYKn5tBhYdbQzyGvfFjujd87f3O1yIOE5xv7V5RwPcpjEUe6D8FROQfQ==}
+  '@farmfe/core-darwin-arm64@1.4.7':
+    resolution: {integrity: sha512-9AanPfD0b9FE17E2qTG6prIk+Y5Zc8/wO8qD1IdYqrMyZ7I+WPKIW+Amo6ADnT+j/2HaQ9Ka5XmYJqqTc9K+vQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@farmfe/core-darwin-x64@1.4.6':
-    resolution: {integrity: sha512-U2MCXzc8DHIlqsfm+nVQb6IKsNT9U8dghPmrT75Hm34/sVdM7qwrpeKj52Uazm5LdLXd3Vx4oEfzPrFJihPXxg==}
+  '@farmfe/core-darwin-x64@1.4.7':
+    resolution: {integrity: sha512-HJBkOPpJa6cuaIwUvtZhdnzgqEeZoIoF+yGUvJXAL7gSFN45a7SFf5r97yYGXq7BmPRgbTLpW1FUbDa7NNpXZg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@farmfe/core-linux-arm64-gnu@1.4.6':
-    resolution: {integrity: sha512-yIv2oPuDOPqikJKp2UY9xAv0cAxkIhBE8yrzIA4jwgIGJinAu5Ib6nJjYoXhCmyw4dSeinfi71+kIYKSpguL5w==}
+  '@farmfe/core-linux-arm64-gnu@1.4.7':
+    resolution: {integrity: sha512-ut08GEOxZqmuxClk0mqbW6a9ZXQ+Ictd+SSdoLGbFZ90tmpz+WHJFf/TOm3iI79Y0Lewb7En5ygjX1OY5qH+Yg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@farmfe/core-linux-arm64-musl@1.4.6':
-    resolution: {integrity: sha512-do1O0svE79XdXva9wC3cW98AjUeT3r2Ukfpw67fhm79jym5061RmVz/HwluXY/VR/4LlpClg1Nz9ZZjpHHk7Bg==}
+  '@farmfe/core-linux-arm64-musl@1.4.7':
+    resolution: {integrity: sha512-Iv1493s1Lk4kI5PcxEamWszML8gZRXgimQQa6vVP05NWPhikodgQHikOFLlq4kDWJ/+MCaWlg/fhtGRbnLlfMA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@farmfe/core-linux-x64-gnu@1.4.6':
-    resolution: {integrity: sha512-WpV/CHs5r/GA1j/hi7ppn+3enGauS7xNM4ibtZOZMHm1E4fJYV6P5g2DInyQvO3c4IFsr/D3JuAiTRxe7KsyQA==}
+  '@farmfe/core-linux-x64-gnu@1.4.7':
+    resolution: {integrity: sha512-GX3gkci8yaG70uTZpyhFAsKfNUNjltqRdw6n2P1LsbucAyndhB9pIZXtjFyK5//KAicd3FJj6U8UQS5nchsJCQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@farmfe/core-linux-x64-musl@1.4.6':
-    resolution: {integrity: sha512-XnumbUC4IQFNPUxYVWXhNg5kykIZ+hAR1GBVYwqESykdeZqeITCvFAt8bSfxiItknlsAuicYOEkeWntQSCBQFg==}
+  '@farmfe/core-linux-x64-musl@1.4.7':
+    resolution: {integrity: sha512-eQkRhNmFxd7FE5lwJF1KsCf4iUqUZBzqXnAiKRYKiBF8v92wm8B0sfDDUefHNz7AsF2A/UH1UxPMe2IOkU61BA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@farmfe/core-win32-arm64-msvc@1.4.6':
-    resolution: {integrity: sha512-r2BVfPlZ1Zr45RmPeGMnrTzTfGAJRs5qKEW0Cb0Ton7V+8wuO/eBt6IF9nyRv2PVnl46Xn4Psu2cXHUFNpBwxw==}
+  '@farmfe/core-win32-arm64-msvc@1.4.7':
+    resolution: {integrity: sha512-AxNYwPV4bMGIghts0b6JEdnnUo4bAdpKDdllHj0I7qwg4WaA4mdzd3ujhJMv6kAyQQVAWk4wLpTe1UK1LcPevQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@farmfe/core-win32-ia32-msvc@1.4.6':
-    resolution: {integrity: sha512-JrFbKZbHRX3Ia/OtmCDXxM7LI9Gom7UFrXuLQQvTCK/uE4EcKtqiOMkAlLmOgmOcxEwUuO0ve2c3U+ZCjUJ9RQ==}
+  '@farmfe/core-win32-ia32-msvc@1.4.7':
+    resolution: {integrity: sha512-TTr4M9cEeEWRGy1DaIEVJPPM/X2Ykojb2am4esV1saYljpSMSoHBbaWR0PamoiewAsMiFP7EFjQyIJUdJyOpRg==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
 
-  '@farmfe/core-win32-x64-msvc@1.4.6':
-    resolution: {integrity: sha512-3czCBQR5z5r8iCLU1rmjeuHBa083KfsHbr0ltVW0Xj5HOLEOPx6UMJCH5WinPuu5eP0/UThgZrR7UBqKnLYPDQ==}
+  '@farmfe/core-win32-x64-msvc@1.4.7':
+    resolution: {integrity: sha512-XhZhrDtei6IQ4FEYvwbMwb0tmYQTWLeoUmbEDOi3ysxreRKO5csuaNVQUPlWhub6Ben7YDtrtyoNHtOJAnIk6Q==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
 
-  '@farmfe/core@1.4.6':
-    resolution: {integrity: sha512-rXvB/brM/5+hDJkIoQqypcyzx1s1H89zyL3QNV/4Q2+8IsaWuN9riFTDkBTUKLlgaUvheDbe1pPAhAT5ba7iSw==}
+  '@farmfe/core@1.4.7':
+    resolution: {integrity: sha512-N/JgjNu7NW//GKI2GfpLX40pqeNnqyoRD/TxHM5R1eIPPvZtP7crW9TFzGt/fXsCWcnZ2pzi75RS94+9kxFiBg==}
     engines: {node: '>=16.15.1'}
 
-  '@farmfe/runtime-plugin-hmr@3.5.8':
-    resolution: {integrity: sha512-xS0wplyAPnSXv6vNKVnyhVOeiuC7aN1ib2krDXQeJOfQSYCS+WFAX+uVX6gZyhkDwgMdXl9JPWvYxkCu2TmF0A==}
+  '@farmfe/runtime-plugin-hmr@3.5.9':
+    resolution: {integrity: sha512-odXeRDdSf5xpW9edm2C5xziIdhsaoWjibIFiA2WJS9cdQmmE/ndqNV8bYpf4I7Ke4wiWS2f9kLKyZMigD6HiVQ==}
 
   '@farmfe/runtime-plugin-import-meta@0.2.3':
     resolution: {integrity: sha512-BEHPjfXj/DXpwKxyM4rMqT9NFRfivTGS+b02uchjV9MSTi8mZqm3QhtJ+znlpgHUBABBtZYKdayQEDhyK4izYw==}
@@ -694,8 +694,8 @@ packages:
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
 
-  '@mdn/browser-compat-data@5.6.20':
-    resolution: {integrity: sha512-TOxHxwNNtZ+HWnmhBgBCKYwevIqxi5HOshnBg7Fac3R95EFGm3ir0HDUG1ujBG3i8zjXimp3GZK1lfsjkbmydg==}
+  '@mdn/browser-compat-data@5.6.21':
+    resolution: {integrity: sha512-yFGyNC6llnRbCELh1vH5mhrdSkQCrBs+wOyFjcYa3E9K3qzz6aDKnUSlDfWx+7pMeVr/iSKIdl1P60g2Jxs5sg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1347,8 +1347,8 @@ packages:
     resolution: {integrity: sha512-zIHwmZPRshsCdpMDyVsqGmgyP0yT8GAgXUnkdAoJisxvf33k7yO6OuoKmcTGuXPWSsm8Oh88nZicRLA9Y0rUeA==}
     engines: {node: '>=12'}
 
-  dotenv@16.4.6:
-    resolution: {integrity: sha512-JhcR/+KIjkkjiU8yEpaB/USlzVi3i5whwOjpIRNGi9svKEXZSe+Qp6IWAjFjv+2GViAoDRCUv/QLNziQxsLqDg==}
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
   ee-first@1.1.1:
@@ -2897,8 +2897,8 @@ packages:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
     engines: {node: '>=18'}
 
-  whatwg-url@14.0.0:
-    resolution: {integrity: sha512-1lfMEm2IEr7RIV+f4lUNPOqfFL+pO+Xw3fJSqmjX9AbXcXcYOkCe1P6+9VBZB6n94af16NfZf+sSk0JCBZC9aw==}
+  whatwg-url@14.1.0:
+    resolution: {integrity: sha512-jlf/foYIKywAt3x/XWKZ/3rz8OSJPiWktjmk891alJUEjiVxKX9LEO92qH3hv4aJ0mN3MWPvGMCy8jQi95xK4w==}
     engines: {node: '>=18'}
 
   which-boxed-primitive@1.1.0:
@@ -3427,44 +3427,44 @@ snapshots:
       inquirer: 9.2.12
       walkdir: 0.4.1
 
-  '@farmfe/core-darwin-arm64@1.4.6':
+  '@farmfe/core-darwin-arm64@1.4.7':
     optional: true
 
-  '@farmfe/core-darwin-x64@1.4.6':
+  '@farmfe/core-darwin-x64@1.4.7':
     optional: true
 
-  '@farmfe/core-linux-arm64-gnu@1.4.6':
+  '@farmfe/core-linux-arm64-gnu@1.4.7':
     optional: true
 
-  '@farmfe/core-linux-arm64-musl@1.4.6':
+  '@farmfe/core-linux-arm64-musl@1.4.7':
     optional: true
 
-  '@farmfe/core-linux-x64-gnu@1.4.6':
+  '@farmfe/core-linux-x64-gnu@1.4.7':
     optional: true
 
-  '@farmfe/core-linux-x64-musl@1.4.6':
+  '@farmfe/core-linux-x64-musl@1.4.7':
     optional: true
 
-  '@farmfe/core-win32-arm64-msvc@1.4.6':
+  '@farmfe/core-win32-arm64-msvc@1.4.7':
     optional: true
 
-  '@farmfe/core-win32-ia32-msvc@1.4.6':
+  '@farmfe/core-win32-ia32-msvc@1.4.7':
     optional: true
 
-  '@farmfe/core-win32-x64-msvc@1.4.6':
+  '@farmfe/core-win32-x64-msvc@1.4.7':
     optional: true
 
-  '@farmfe/core@1.4.6':
+  '@farmfe/core@1.4.7':
     dependencies:
       '@farmfe/runtime': 0.12.10
-      '@farmfe/runtime-plugin-hmr': 3.5.8
+      '@farmfe/runtime-plugin-hmr': 3.5.9
       '@farmfe/runtime-plugin-import-meta': 0.2.3
       '@farmfe/utils': 0.1.0
       '@koa/cors': 5.0.0
       '@swc/helpers': 0.5.15
       chokidar: 3.6.0
       deepmerge: 4.3.1
-      dotenv: 16.4.6
+      dotenv: 16.4.7
       dotenv-expand: 11.0.7
       execa: 7.2.0
       farm-browserslist-generator: 1.0.5
@@ -3484,21 +3484,21 @@ snapshots:
       zod: 3.23.8
       zod-validation-error: 1.5.0(zod@3.23.8)
     optionalDependencies:
-      '@farmfe/core-darwin-arm64': 1.4.6
-      '@farmfe/core-darwin-x64': 1.4.6
-      '@farmfe/core-linux-arm64-gnu': 1.4.6
-      '@farmfe/core-linux-arm64-musl': 1.4.6
-      '@farmfe/core-linux-x64-gnu': 1.4.6
-      '@farmfe/core-linux-x64-musl': 1.4.6
-      '@farmfe/core-win32-arm64-msvc': 1.4.6
-      '@farmfe/core-win32-ia32-msvc': 1.4.6
-      '@farmfe/core-win32-x64-msvc': 1.4.6
+      '@farmfe/core-darwin-arm64': 1.4.7
+      '@farmfe/core-darwin-x64': 1.4.7
+      '@farmfe/core-linux-arm64-gnu': 1.4.7
+      '@farmfe/core-linux-arm64-musl': 1.4.7
+      '@farmfe/core-linux-x64-gnu': 1.4.7
+      '@farmfe/core-linux-x64-musl': 1.4.7
+      '@farmfe/core-win32-arm64-msvc': 1.4.7
+      '@farmfe/core-win32-ia32-msvc': 1.4.7
+      '@farmfe/core-win32-x64-msvc': 1.4.7
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  '@farmfe/runtime-plugin-hmr@3.5.8':
+  '@farmfe/runtime-plugin-hmr@3.5.9':
     dependencies:
       core-js: 3.39.0
 
@@ -3568,7 +3568,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@mdn/browser-compat-data@5.6.20': {}
+  '@mdn/browser-compat-data@5.6.21': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -4131,7 +4131,7 @@ snapshots:
   data-urls@5.0.0:
     dependencies:
       whatwg-mimetype: 4.0.0
-      whatwg-url: 14.0.0
+      whatwg-url: 14.1.0
 
   data-view-buffer@1.0.1:
     dependencies:
@@ -4225,9 +4225,9 @@ snapshots:
 
   dotenv-expand@11.0.7:
     dependencies:
-      dotenv: 16.4.6
+      dotenv: 16.4.7
 
-  dotenv@16.4.6: {}
+  dotenv@16.4.7: {}
 
   ee-first@1.1.1: {}
 
@@ -4550,7 +4550,7 @@ snapshots:
 
   farm-browserslist-generator@1.0.5:
     dependencies:
-      '@mdn/browser-compat-data': 5.6.20
+      '@mdn/browser-compat-data': 5.6.21
       '@types/object-path': 0.11.4
       '@types/semver': 7.5.8
       '@types/ua-parser-js': 0.7.39
@@ -5073,7 +5073,7 @@ snapshots:
       webidl-conversions: 7.0.0
       whatwg-encoding: 3.1.1
       whatwg-mimetype: 4.0.0
-      whatwg-url: 14.0.0
+      whatwg-url: 14.1.0
       ws: 8.18.0
       xml-name-validator: 5.0.0
     transitivePeerDependencies:
@@ -5890,7 +5890,7 @@ snapshots:
 
   whatwg-mimetype@4.0.0: {}
 
-  whatwg-url@14.0.0:
+  whatwg-url@14.1.0:
     dependencies:
       tr46: 5.0.0
       webidl-conversions: 7.0.0
