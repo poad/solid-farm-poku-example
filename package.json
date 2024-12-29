@@ -1,16 +1,15 @@
 {
   "name": "solid-farm-poku-example",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "farm start",
     "start": "farm start",
     "build": "farm build",
     "preview": "farm preview",
     "clean": "farm clean",
-    "eslint:check": "eslint",
-    "eslint:fix": "eslint --fix",
-    "lint": "pnpm run --parallel /^.*:check/",
-    "lint-fix": "pnpm run /^.*:fix/",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix",
     "test": "poku --parallel ."
   },
   "dependencies": {
