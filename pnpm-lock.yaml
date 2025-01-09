@@ -25,8 +25,8 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4
       '@farmfe/core':
-        specifier: ^1.6.3
-        version: 1.6.3
+        specifier: ^1.6.4
+        version: 1.6.4
       '@solidjs/router':
         specifier: ^0.15.2
         version: 0.15.2(solid-js@1.9.4)
@@ -96,6 +96,9 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
+
+  '@asamuzakjp/css-color@2.8.2':
+    resolution: {integrity: sha512-RtWv9jFN2/bLExuZgFFZ0I3pWWeezAHGgrmjqGGWclATl1aDe3yhCUaI0Ilkp6OCk9zX7+FjvDasEX8Q9Rxc5w==}
 
   '@babel/code-frame@7.26.2':
     resolution: {integrity: sha512-RJlIHRueQgwWitWgF8OdFYGZX328Ax5BCemNGlqHfplnRT9ESi8JkFlvaVYbS+UubVY6dpv87Fs2u5M29iNFVQ==}
@@ -232,6 +235,34 @@ packages:
 
   '@changesets/write@0.3.2':
     resolution: {integrity: sha512-kDxDrPNpUgsjDbWBvUo27PzKX4gqeKOlhibaOXDJA6kuBisGqNHv/HwGJrAu8U/dSf8ZEFIeHIPtvSlZI1kULw==}
+
+  '@csstools/color-helpers@5.0.1':
+    resolution: {integrity: sha512-MKtmkA0BX87PKaO1NFRTFH+UnkgnmySQOvNxJubsadusqPEC2aJ9MOQiMceZJJ6oitUl/i0L6u0M1IrmAOmgBA==}
+    engines: {node: '>=18'}
+
+  '@csstools/css-calc@2.1.1':
+    resolution: {integrity: sha512-rL7kaUnTkL9K+Cvo2pnCieqNpTKgQzy5f+N+5Iuko9HAoasP+xgprVh7KN/MaJVvVL1l0EzQq2MoqBHKSrDrag==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@csstools/css-parser-algorithms': ^3.0.4
+      '@csstools/css-tokenizer': ^3.0.3
+
+  '@csstools/css-color-parser@3.0.7':
+    resolution: {integrity: sha512-nkMp2mTICw32uE5NN+EsJ4f5N+IGFeCFu4bGpiKgb2Pq/7J/MpyLBeQ5ry4KKtRFZaYs6sTmcMYrSRIyj5DFKA==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@csstools/css-parser-algorithms': ^3.0.4
+      '@csstools/css-tokenizer': ^3.0.3
+
+  '@csstools/css-parser-algorithms@3.0.4':
+    resolution: {integrity: sha512-Up7rBoV77rv29d3uKHUIVubz1BTcgyUK72IvCQAbfbMv584xHcGKCKbWh7i8hPrRJ7qU4Y8IO3IY9m+iTB7P3A==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@csstools/css-tokenizer': ^3.0.3
+
+  '@csstools/css-tokenizer@3.0.3':
+    resolution: {integrity: sha512-UJnjoFsmxfKUdNYdWgOB0mWUypuLvAfQPH1+pyvRJs6euowbFkFC6P13w1l8mJyi3vxYMxc9kld5jZEGRQs6bw==}
+    engines: {node: '>=18'}
 
   '@esbuild/aix-ppc64@0.23.1':
     resolution: {integrity: sha512-6VhYk1diRqrhBAqpJEdjASR/+WVRtfjpqKuNw11cLiaWpAT/Uu+nokB+UJnevzy/P9C/ty6AOe0dwueMrGh/iQ==}
@@ -575,62 +606,62 @@ packages:
     engines: {node: '>= 16'}
     hasBin: true
 
-  '@farmfe/core-darwin-arm64@1.6.3':
-    resolution: {integrity: sha512-Hfs62/Cqz7phudS9BXemACoOZaAM/bPAYygOfHoS6LDLkGw2b9eu/cj0uim9fgAjjWVXjJaNoapHnypGviBPgg==}
+  '@farmfe/core-darwin-arm64@1.6.4':
+    resolution: {integrity: sha512-ogbiMlPYECtt+bYaV50SvZfJQUITE060UDf64CnLuOBym6XqGjGL63SYtt99Umz7OPqehpFYJ9fbaDi1wRAZOw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@farmfe/core-darwin-x64@1.6.3':
-    resolution: {integrity: sha512-tlHa0krhjPayd8wPqv8IkkHtjKdzLYaj6JvHmX/hsm80Hunq1eW93QvleYKeZswnL6Bwi0Q460rKXSAjKPD0NQ==}
+  '@farmfe/core-darwin-x64@1.6.4':
+    resolution: {integrity: sha512-rXZ+X9o5/XwgisSDkFwWWo9cBXSd+LyzREZRY6sZC43jDYmyS40BUPlE1QW1Vdyz73bwm4Du7+hiIYV+AeICVw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@farmfe/core-linux-arm64-gnu@1.6.3':
-    resolution: {integrity: sha512-hnase4Z0pEBhDs650HgLbehXQ6IP/kOk4otd9jKJ5m6HE+uBzscScfVxykjPZkToPDcK+uhnNZ6injnRnCwk4A==}
+  '@farmfe/core-linux-arm64-gnu@1.6.4':
+    resolution: {integrity: sha512-+sGI1GAs//33EnQG3oVgH87C+9JU9S6pYMup4QCNApElultBl1ctpy1pBI3UGDhkw0/9kfBbr/j3x0TfpmU86A==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@farmfe/core-linux-arm64-musl@1.6.3':
-    resolution: {integrity: sha512-tiUf+nQdnvd98sMIUkZ8uAdBFEBQr4PZuxJ2tSVIE9b+aWhZmPNkb/TE+f7C1DdHtfn+fqnFE+X3mTnh6efNqw==}
+  '@farmfe/core-linux-arm64-musl@1.6.4':
+    resolution: {integrity: sha512-dlQ5NrLXRGUfA6zIcpQC61erkGqodewR2r+VNA2aNGGXK4yYWs30rzhWdOiYt8Zaqmlk73v7VIG9GVRmhmrP2Q==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@farmfe/core-linux-x64-gnu@1.6.3':
-    resolution: {integrity: sha512-iqV2sIsk7cbPSYPtVSnMoaV83xWT5vCNOuGu/2Qg/HRiZMtddN8Fif5SCsRGY8qHlM3HlaHdB3beeVJuJakdHg==}
+  '@farmfe/core-linux-x64-gnu@1.6.4':
+    resolution: {integrity: sha512-PHpBppvMSVUrKKvymTYx1lDP44DZcy1drmZFX/dqeeEG64dFEJpY8SO5yCpBCfVTdDnxH4RF57BJCOFGoXvLEA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@farmfe/core-linux-x64-musl@1.6.3':
-    resolution: {integrity: sha512-4xvAznjq2fmi6fKtcrLyb3/JBsSBu3Hb26Ve+v2LMKMSyjhdgATVAQF10mCt/QPzkOF0EwRhPh/r1YvqB9sjNw==}
+  '@farmfe/core-linux-x64-musl@1.6.4':
+    resolution: {integrity: sha512-c9DJyA3vu/KDNphAGJ96H11MAk03+wW+uzcq18YY/QJPPwZo3IHwoUpUjr1v7K0I96bf9j2tpvBNfzWDLoq2BA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@farmfe/core-win32-arm64-msvc@1.6.3':
-    resolution: {integrity: sha512-ojYr8nDnfpUz+VflYFawkd1w8Loe1KC7j/gd8h/wJ5dZ7KTSfrQtP0v54tGDKtfMlPRWaPnyQ8MbEL0utSnWeg==}
+  '@farmfe/core-win32-arm64-msvc@1.6.4':
+    resolution: {integrity: sha512-47uKv4oS6p7EM6haEfdvd9Jg0fTSGnaAGSkIKnJzQV5AsaB85Bb31ah36rYgVWUK9U3YKfgF8l2lpotxT3CfHw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@farmfe/core-win32-ia32-msvc@1.6.3':
-    resolution: {integrity: sha512-Z+jBgeRwRrujgoBFglodmyGP8E0zuXQD5YoeSuBsN1Qhu54FaZl0q/OVJu1rvROmCKfL7+H7RCyZdpSRMXJlJA==}
+  '@farmfe/core-win32-ia32-msvc@1.6.4':
+    resolution: {integrity: sha512-B50tH5Hjr2qIGlwpjuPIuwIwp2oUiijST+g+i3rf7xGOltUBqcjJTx9MVSDpgJ14rtxn36sTJ4B5CdIvtuQKYQ==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
 
-  '@farmfe/core-win32-x64-msvc@1.6.3':
-    resolution: {integrity: sha512-PQ5B98jLTdGvW2pvVYk9c/R9PpR4kIDu5+JB9V6YgkEuejo8PdKt1VlxZm07ydg5pZxswAAJIWB+WgigXn9sGg==}
+  '@farmfe/core-win32-x64-msvc@1.6.4':
+    resolution: {integrity: sha512-df6SbcC6eNQDMknGSbRnje0dx86B1l9L/ptCd0QgNwacTZ972lbNmnDNjNxg4D7i+kttiMbTCx04LW0b7nEYsQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
 
-  '@farmfe/core@1.6.3':
-    resolution: {integrity: sha512-qZoVM08MPXzFuWIi64ezATbC54ck1DY7vpEWuL+lZ5pMDn3Is7v0zHQvJMYJFgcaOPR/7AnwRipdE8h68XTSmA==}
+  '@farmfe/core@1.6.4':
+    resolution: {integrity: sha512-TPbideyDfqc0rt95zIDB6ClnC1sFejd0bpHqx1P9RlS/Hbcvt+M2bSWx5dQI35pnoJd4jHzpzdirAnkGb6IDYA==}
     engines: {node: '>=16.15.1'}
 
   '@farmfe/runtime-plugin-hmr@3.5.10':
@@ -1101,8 +1132,8 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  browserslist@4.24.3:
-    resolution: {integrity: sha512-1CPmv8iobE2fyRMV97dAcMVegvvWKxmq94hkLiAkUGwKVTyDLw33K+ZxiFrREKmmps4rIw6grcCFCnTMSZ/YiA==}
+  browserslist@4.24.4:
+    resolution: {integrity: sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -1141,8 +1172,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001690:
-    resolution: {integrity: sha512-5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==}
+  caniuse-lite@1.0.30001692:
+    resolution: {integrity: sha512-A95VKan0kdtrsnMubMKxEKUKImOPSuCpYgxSQBo036P5YYgVIcOYJEgt/txJWqObiRQeISNCfef9nvlQ0vbV7A==}
 
   chalk@3.0.0:
     resolution: {integrity: sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==}
@@ -1230,8 +1261,8 @@ packages:
   css.escape@1.5.1:
     resolution: {integrity: sha512-YUifsXXuknHlUsmlgyY0PKzgPOr7/FjCePfHNt0jxm83wHZi44VDMQ7/fGNkjY3/jV1MC+1CmZbaHzugyeRtpg==}
 
-  cssstyle@4.1.0:
-    resolution: {integrity: sha512-h66W1URKpBS5YMI/V8PyXvTMFT8SupJ1IzoIV8IeBC/ji8WVmrO8dGlTi+2dh6whmdk6BiKJLD/ZBkhWbcg6nA==}
+  cssstyle@4.2.1:
+    resolution: {integrity: sha512-9+vem03dMXG7gDmZ62uqmRiMRNtinIZ9ZyuF6BdxzfOD+FdN5hretzynkn0ReS2DO2GSw76RWHs0UmJPI2zUjw==}
     engines: {node: '>=18'}
 
   csstype@3.1.3:
@@ -2172,6 +2203,10 @@ packages:
     resolution: {integrity: sha512-HgMmCqIJSAKqo68l0rS2AanEWfkxaZ5wNiEFb5ggm08lDs9Xl2KxBlX3PTcaD2chBM1gXAYf491/M2Rv8Jwayg==}
     engines: {node: '>= 0.6.0'}
 
+  lru-cache@11.0.2:
+    resolution: {integrity: sha512-123qHRfJBmo2jXDbo/a5YOQrJoHF/GNQTLzQ5+IdK5pWpceK17yRc6ozlWd25FxvGKQbIUs91fDFkXmDHTKcyA==}
+    engines: {node: 20 || >=22}
+
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
@@ -2525,6 +2560,9 @@ packages:
   rrweb-cssom@0.7.1:
     resolution: {integrity: sha512-TrEMa7JGdVm0UThDJSx7ddw5nVm3UJS9o9CCIZ72B1vSyEZoziDqBYP3XIoi/12lKrJR8rE3jeFHMok2F/Mnsg==}
 
+  rrweb-cssom@0.8.0:
+    resolution: {integrity: sha512-guoltQEx+9aMf2gDZ0s62EcV8lsXR+0w8915TC3ITdn2YueuNjdAYh/levpU9nFaoChh9RUS5ZdQMrKfVEN9tw==}
+
   run-applescript@5.0.0:
     resolution: {integrity: sha512-XcT5rBksx1QdIhlFOCtgZkB99ZEouFZ1E2Kc2LHqNW13U3/74YGdkQRmThTwxy4QIyookibDKYZOPqX//6BlAg==}
     engines: {node: '>=12'}
@@ -2836,8 +2874,8 @@ packages:
     resolution: {integrity: sha512-KK8xQ1mkzZeg9inewmFVDNkg3l5LUhoq9kN6iWYB/CC9YMG8HA+c1Q8HwDe6dEX7kErrEVNVBO3fWsVq5iDgtw==}
     engines: {node: '>=8'}
 
-  update-browserslist-db@1.1.1:
-    resolution: {integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==}
+  update-browserslist-db@1.1.2:
+    resolution: {integrity: sha512-PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -3017,6 +3055,14 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
+  '@asamuzakjp/css-color@2.8.2':
+    dependencies:
+      '@csstools/css-calc': 2.1.1(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)
+      '@csstools/css-color-parser': 3.0.7(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)
+      '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
+      '@csstools/css-tokenizer': 3.0.3
+      lru-cache: 11.0.2
+
   '@babel/code-frame@7.26.2':
     dependencies:
       '@babel/helper-validator-identifier': 7.25.9
@@ -3057,7 +3103,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.26.3
       '@babel/helper-validator-option': 7.25.9
-      browserslist: 4.24.3
+      browserslist: 4.24.4
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -3272,6 +3318,26 @@ snapshots:
       human-id: 1.0.2
       prettier: 2.8.8
 
+  '@csstools/color-helpers@5.0.1': {}
+
+  '@csstools/css-calc@2.1.1(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)':
+    dependencies:
+      '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
+      '@csstools/css-tokenizer': 3.0.3
+
+  '@csstools/css-color-parser@3.0.7(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)':
+    dependencies:
+      '@csstools/color-helpers': 5.0.1
+      '@csstools/css-calc': 2.1.1(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)
+      '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
+      '@csstools/css-tokenizer': 3.0.3
+
+  '@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3)':
+    dependencies:
+      '@csstools/css-tokenizer': 3.0.3
+
+  '@csstools/css-tokenizer@3.0.3': {}
+
   '@esbuild/aix-ppc64@0.23.1':
     optional: true
 
@@ -3471,34 +3537,34 @@ snapshots:
       inquirer: 9.2.12
       walkdir: 0.4.1
 
-  '@farmfe/core-darwin-arm64@1.6.3':
+  '@farmfe/core-darwin-arm64@1.6.4':
     optional: true
 
-  '@farmfe/core-darwin-x64@1.6.3':
+  '@farmfe/core-darwin-x64@1.6.4':
     optional: true
 
-  '@farmfe/core-linux-arm64-gnu@1.6.3':
+  '@farmfe/core-linux-arm64-gnu@1.6.4':
     optional: true
 
-  '@farmfe/core-linux-arm64-musl@1.6.3':
+  '@farmfe/core-linux-arm64-musl@1.6.4':
     optional: true
 
-  '@farmfe/core-linux-x64-gnu@1.6.3':
+  '@farmfe/core-linux-x64-gnu@1.6.4':
     optional: true
 
-  '@farmfe/core-linux-x64-musl@1.6.3':
+  '@farmfe/core-linux-x64-musl@1.6.4':
     optional: true
 
-  '@farmfe/core-win32-arm64-msvc@1.6.3':
+  '@farmfe/core-win32-arm64-msvc@1.6.4':
     optional: true
 
-  '@farmfe/core-win32-ia32-msvc@1.6.3':
+  '@farmfe/core-win32-ia32-msvc@1.6.4':
     optional: true
 
-  '@farmfe/core-win32-x64-msvc@1.6.3':
+  '@farmfe/core-win32-x64-msvc@1.6.4':
     optional: true
 
-  '@farmfe/core@1.6.3':
+  '@farmfe/core@1.6.4':
     dependencies:
       '@farmfe/runtime': 0.12.10
       '@farmfe/runtime-plugin-hmr': 3.5.10
@@ -3528,15 +3594,15 @@ snapshots:
       zod: 3.24.1
       zod-validation-error: 1.5.0(zod@3.24.1)
     optionalDependencies:
-      '@farmfe/core-darwin-arm64': 1.6.3
-      '@farmfe/core-darwin-x64': 1.6.3
-      '@farmfe/core-linux-arm64-gnu': 1.6.3
-      '@farmfe/core-linux-arm64-musl': 1.6.3
-      '@farmfe/core-linux-x64-gnu': 1.6.3
-      '@farmfe/core-linux-x64-musl': 1.6.3
-      '@farmfe/core-win32-arm64-msvc': 1.6.3
-      '@farmfe/core-win32-ia32-msvc': 1.6.3
-      '@farmfe/core-win32-x64-msvc': 1.6.3
+      '@farmfe/core-darwin-arm64': 1.6.4
+      '@farmfe/core-darwin-x64': 1.6.4
+      '@farmfe/core-linux-arm64-gnu': 1.6.4
+      '@farmfe/core-linux-arm64-musl': 1.6.4
+      '@farmfe/core-linux-x64-gnu': 1.6.4
+      '@farmfe/core-linux-x64-musl': 1.6.4
+      '@farmfe/core-win32-arm64-msvc': 1.6.4
+      '@farmfe/core-win32-ia32-msvc': 1.6.4
+      '@farmfe/core-win32-x64-msvc': 1.6.4
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -4043,12 +4109,12 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  browserslist@4.24.3:
+  browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001690
+      caniuse-lite: 1.0.30001692
       electron-to-chromium: 1.5.79
       node-releases: 2.0.19
-      update-browserslist-db: 1.1.1(browserslist@4.24.3)
+      update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
   buffer@5.7.1:
     dependencies:
@@ -4087,7 +4153,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001690: {}
+  caniuse-lite@1.0.30001692: {}
 
   chalk@3.0.0:
     dependencies:
@@ -4168,9 +4234,10 @@ snapshots:
 
   css.escape@1.5.1: {}
 
-  cssstyle@4.1.0:
+  cssstyle@4.2.1:
     dependencies:
-      rrweb-cssom: 0.7.1
+      '@asamuzakjp/css-color': 2.8.2
+      rrweb-cssom: 0.8.0
 
   csstype@3.1.3: {}
 
@@ -4611,8 +4678,8 @@ snapshots:
       '@types/object-path': 0.11.4
       '@types/semver': 7.5.8
       '@types/ua-parser-js': 0.7.39
-      browserslist: 4.24.3
-      caniuse-lite: 1.0.30001690
+      browserslist: 4.24.4
+      caniuse-lite: 1.0.30001692
       isbot: 3.8.0
       object-path: 0.11.8
       semver: 7.6.3
@@ -5130,7 +5197,7 @@ snapshots:
 
   jsdom@25.0.1:
     dependencies:
-      cssstyle: 4.1.0
+      cssstyle: 4.2.1
       data-urls: 5.0.0
       decimal.js: 10.4.3
       form-data: 4.0.1
@@ -5280,6 +5347,8 @@ snapshots:
       is-unicode-supported: 0.1.0
 
   loglevel@1.9.2: {}
+
+  lru-cache@11.0.2: {}
 
   lru-cache@5.1.1:
     dependencies:
@@ -5620,6 +5689,8 @@ snapshots:
 
   rrweb-cssom@0.7.1: {}
 
+  rrweb-cssom@0.8.0: {}
+
   run-applescript@5.0.0:
     dependencies:
       execa: 5.1.1
@@ -5953,9 +6024,9 @@ snapshots:
 
   untildify@4.0.0: {}
 
-  update-browserslist-db@1.1.1(browserslist@4.24.3):
+  update-browserslist-db@1.1.2(browserslist@4.24.4):
     dependencies:
-      browserslist: 4.24.3
+      browserslist: 4.24.4
       escalade: 3.2.0
       picocolors: 1.1.1
 
