@@ -2960,8 +2960,8 @@ packages:
       yaml:
         optional: true
 
-  vitefu@1.0.5:
-    resolution: {integrity: sha512-h4Vflt9gxODPFNGPwp4zAMZRpZR7eslzwH2c5hn5kNZ5rhnKyRJ50U+yGCdc2IRaBs8O4haIgLNGrV5CrpMsCA==}
+  vitefu@1.0.6:
+    resolution: {integrity: sha512-+Rex1GlappUyNN6UfwbVZne/9cYC4+R2XDk9xkNXBKMw6HQagdX9PgZ8V2v1WUSK1wfBLp7qbI1+XSNIlB1xmA==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
@@ -6077,7 +6077,7 @@ snapshots:
       solid-js: 1.9.5
       solid-refresh: 0.6.3(solid-js@1.9.5)
       vite: 6.1.1(@types/node@22.13.5)(tsx@4.19.3)
-      vitefu: 1.0.5(vite@6.1.1(@types/node@22.13.5)(tsx@4.19.3))
+      vitefu: 1.0.6(vite@6.1.1(@types/node@22.13.5)(tsx@4.19.3))
     optionalDependencies:
       '@testing-library/jest-dom': 6.6.3
     transitivePeerDependencies:
@@ -6093,7 +6093,7 @@ snapshots:
       fsevents: 2.3.3
       tsx: 4.19.3
 
-  vitefu@1.0.5(vite@6.1.1(@types/node@22.13.5)(tsx@4.19.3)):
+  vitefu@1.0.6(vite@6.1.1(@types/node@22.13.5)(tsx@4.19.3)):
     optionalDependencies:
       vite: 6.1.1(@types/node@22.13.5)(tsx@4.19.3)
 
