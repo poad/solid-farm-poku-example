@@ -70,8 +70,8 @@ importers:
         specifier: ^26.0.0
         version: 26.0.0
       pnpm:
-        specifier: ^10.4.1
-        version: 10.4.1
+        specifier: ^10.5.0
+        version: 10.5.0
       poku:
         specifier: ^3.0.1
         version: 3.0.1
@@ -2318,8 +2318,8 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  pnpm@10.4.1:
-    resolution: {integrity: sha512-x1O2w616+hOvOI+m2AgDWgCOMOqZk/WMZmPivF/yFnmqg02wlJhxKapNSIuG31f3tjSYGy+CfNysxpjMDPuIrw==}
+  pnpm@10.5.0:
+    resolution: {integrity: sha512-ERBqWRbHQG/kuMuOMGeXS4co9HMIpPWsXoUDBK+m9X4oR9eVDf54h32NNr+0AdOBxCFds6TDVH/6Y8FDM6b6UQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -5336,7 +5336,7 @@ snapshots:
 
   pify@4.0.1: {}
 
-  pnpm@10.4.1: {}
+  pnpm@10.5.0: {}
 
   poku@3.0.1: {}
 
