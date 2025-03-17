@@ -20,7 +20,7 @@
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.22.0",
     "@farmfe/cli": "^1.0.4",
-    "@farmfe/core": "^1.6.7",
+    "@farmfe/core": "^1.7.1",
     "@solidjs/router": "^0.15.3",
     "@solidjs/testing-library": "^0.8.10",
     "@stylistic/eslint-plugin": "^4.2.0",
